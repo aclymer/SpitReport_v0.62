@@ -1,0 +1,70 @@
+{
+    "appKeys": {
+        "icon_id": 1,
+        "index": 0,
+        "spot_id": 4,
+        "spot_name": 3,
+        "surf_ht": 5,
+        "water_temp": 6,
+        "wind": 2
+    },
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "Aaron Clymer (c) 2014",
+    "longName": "SpitCast Surf Report",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/poor.png",
+                "name": "IMAGE_POOR",
+                "type": "png"
+            },
+            {
+                "file": "images/poor_fair.png",
+                "name": "IMAGE_POOR_FAIR",
+                "type": "png"
+            },
+            {
+                "file": "images/fair.png",
+                "name": "IMAGE_FAIR",
+                "type": "png"
+            },
+            {
+                "file": "images/fair_good.png",
+                "name": "IMAGE_FAIR_GOOD",
+                "type": "png"
+            },
+            {
+                "file": "images/good.png",
+                "name": "IMAGE_GOOD",
+                "type": "png"
+            },
+            {
+                "file": "images/button_bar.png",
+                "name": "IMAGE_BUTTON_BAR",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[A-Z0-9!#$%&()*+]",
+                "file": "fonts/meteocons-webfont.ttf",
+                "name": "FONT_MATEOCONS_28",
+                "type": "font"
+            },
+            {
+                "file": "images/watch_menu_icon.png",
+                "menuIcon": true,
+                "name": "WAVE_ICON",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "SpitReport Ver 0.6",
+    "uuid": "3ac07819-0941-41a4-9583-6142369dd926",
+    "versionCode": 6,
+    "versionLabel": "0.62",
+    "watchapp": {
+        "watchface": false
+    }
+}
